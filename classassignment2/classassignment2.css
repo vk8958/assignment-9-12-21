@@ -1,0 +1,49 @@
+#container{
+width: 960px;
+height: 780px;
+margin: auto;
+}
+.inerdiv{
+    height:780px ;
+    width: 60px;
+    background-color: pink;
+    opacity: 0.7;
+    margin: 10px;
+    float: left;
+}
+.page1{
+
+}
+.page2{
+    position: absolute;
+    margin-top: 50px;
+}
+.outerdiv1{
+    height: 130px;
+    width: 960px;
+background-color: gray;
+opacity: 0.7;
+clear: both;
+margin-left: 20px;
+
+}
+.outerdiv10{
+    height: 130px;
+    width: 960px;
+    background-color: gray;
+    opacity: 0.7;
+    clear: both;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.outerdiv{
+    height: 200px;
+    width: 230px;
+    background-color: gray;
+    opacity: 0.7;
+    margin: 10px;
+    float: left;
+}
+.midlediv{
+    margin-top: 10px;
+}
