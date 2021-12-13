@@ -1,49 +1,45 @@
 #container{
-width: 960px;
-height: 780px;
-margin: auto;
+    height: 760px;
+    width: 960px;
+    display: flex;
+    margin-left: 200px;
 }
 .inerdiv{
-    height:780px ;
     width: 60px;
+    height: 760px;
     background-color: pink;
     opacity: 0.7;
     margin: 10px;
-    float: left;
 }
-.page1{
-
+.outerdiv{
+height: 200px;
+width: 220px;
+background-color: gray;
+margin: 10px;
+opacity: 0.7;
+float: left;
 }
 .page2{
-    position: absolute;
-    margin-top: 50px;
-}
-.outerdiv1{
-    height: 130px;
     width: 960px;
-background-color: gray;
-opacity: 0.7;
-clear: both;
-margin-left: 20px;
+    height: 760px;
+     position: absolute;
+    
+}
+#strech{
+    width: 960px;
+    height: 100px;
+    background-color: gray;
+    opacity: 0.7;
+    position: absolute;
 
 }
 .outerdiv10{
-    height: 130px;
-    width: 960px;
-    background-color: gray;
-    opacity: 0.7;
-    clear: both;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 490px;
+    position: absolute;
 }
-.outerdiv{
-    height: 200px;
-    width: 230px;
-    background-color: gray;
-    opacity: 0.7;
-    margin: 10px;
-    float: left;
+.outerdiv1{
+    margin-top: 20px;
 }
-.midlediv{
-    margin-top: 10px;
+.midle{
+margin-top: 140px;
 }
